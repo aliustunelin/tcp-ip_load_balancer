@@ -43,5 +43,51 @@ It will send traffic from the frontend to a randomly chosen backend. Bytes on th
 <br> <br> 
 To try the project run python http server, nginx etc. but we using npx packages. 
 ```
-> npx http-server -p 5001
+>> npx http-server -p 5001
 ```
+
+![resim](https://user-images.githubusercontent.com/40759486/177364603-3efeebc0-6ab8-405a-9206-8da32b1c0b6f.png)
+
+
+then we run main.go file
+```
+>> go run main.go
+```
+
+
+
+then we run main.go file
+```
+>> go run main.go
+```
+
+we can use curl 
+```
+>> curl localhost:8080
+```
+
+![resim](https://user-images.githubusercontent.com/40759486/177364792-20f715e5-f0f9-4c15-b8d7-e1d8eee65dc3.png)
+
+
+![resim](https://user-images.githubusercontent.com/40759486/177364813-1e680ed3-2d9c-47a1-a302-191a7efb9960.png)
+
+
+Then the system is full capacity, of course only for 3 servers :) 
+<br>
+for testing we can run 5001, 5002, 5003 http-servers
+```
+>> npx http-server -p 5002
+>> npx http-server -p 5003
+```
+
+![resim](https://user-images.githubusercontent.com/40759486/177365161-acfaa09a-6e5a-4ff5-8157-df8e3904eafb.png)
+
+
+## Project Addition Development
+- For project development, it is possible to switch to http instead of TCP-IP.
+- Currently not ideal for use in any living system.
+- Concurrency, efficient memory usage etc. Many parts need improvements.
+- Many proxy load balancers can be found in Github.
+
+
+
