@@ -43,5 +43,5 @@ It will send traffic from the frontend to a randomly chosen backend. Bytes on th
 <br> <br> 
 To try the project run python http server, nginx etc. but we using npx packages. 
 ```
-npx http-server -p 5001
+> npx http-server -p 5001
 ```
