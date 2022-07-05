@@ -11,3 +11,18 @@ Increasing existing resources means -Scale Out - adding new servers means - Scal
 
 
 >  Upgrading the existing system means extra processor and ram. Instead, many companies have chosen to buy new server systems.
+
+<br/><br/><br/>
+
+As the amount of servers increases, we have new problems. We need to distribute the traffic coming over us efficiently. <br/>
+We put a load balancer in front of this new server cluster and assign the work to the servers that will do the actual work.
+
+![resim](https://user-images.githubusercontent.com/40759486/177360620-d76d993d-f57c-489f-8117-11bbefc8cfe1.png)
+
+The load balancer not only distributes the load, it scans our existing systems and identifies the systems that cannot be acted upon. If necessary, it cannot assign processes to the problematic system.
+
+
+![resim](https://user-images.githubusercontent.com/40759486/177361679-e0489af7-ba53-4cf1-9e57-5439d8c196e4.png)
+
+ok, How is my load balancer? <br>
+The main reason for this is that #Go is a system language. It was my choice when writing #Go Load Balancer, which compiles really fast and is a good garbage collection system.
