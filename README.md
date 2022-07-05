@@ -24,5 +24,5 @@ The load balancer not only distributes the load, it scans our existing systems a
 
 ![resim](https://user-images.githubusercontent.com/40759486/177361679-e0489af7-ba53-4cf1-9e57-5439d8c196e4.png)
 
-ok, How is my load balancer? <br>
+Ok, How is my load balancer? <br>
 The main reason for this is that #Go is a system language. It was my choice when writing #Go Load Balancer, which compiles really fast and is a good garbage collection system.
