@@ -28,3 +28,20 @@ We put a load balancer in front of this new server cluster and assign the work t
 
 Ok, How is my load balancer? <br>
 The main reason for this is that #Go is a system language. It was my choice when writing #Go Load Balancer, which compiles really fast and is a good garbage collection system.
+
+<br>Outside of Go, Python could be done with #Django or #Flask. However, as the load on this system increases, it may give us a headache. I don't want this and the best is to do something in #Go, one of the new world languages, and keep up with the change.
+<br> <br>
+In the project, I will set up a Layer-4 TCP Load Balancer.
+![resim](https://user-images.githubusercontent.com/40759486/177363488-dcc27a15-b1b9-4fbd-8e01-a563e8805197.png)
+
+
+<br>This structure will actually act as a proxy.
+The purpose of this structure is to send only the connections received from the front end to the servers at the back end. <br> <br>
+
+It will send traffic from the frontend to a randomly chosen backend. Bytes on the LB will be transmitted to the server until the connection is disconnected. Multiple incoming connections at the same time will be handled.
+
+<br> <br> 
+To try the project run python http server, nginx etc. but we using npx packages. 
+'''
+npx http-server -p 5001
+'''
