@@ -19,7 +19,9 @@ We put a load balancer in front of this new server cluster and assign the work t
 
 ![resim](https://user-images.githubusercontent.com/40759486/177360620-d76d993d-f57c-489f-8117-11bbefc8cfe1.png)
 
-> The load balancer not only distributes the load, it scans our existing systems and identifies the systems that cannot be acted upon. <br> If necessary, it cannot assign processes to the problematic system.
+> The load balancer not only distributes the load, it scans our existing systems and identifies the systems that cannot be acted upon. 
+ 
+<br> If necessary, it cannot assign processes to the problematic system.
 
 
 ![resim](https://user-images.githubusercontent.com/40759486/177361679-e0489af7-ba53-4cf1-9e57-5439d8c196e4.png)
