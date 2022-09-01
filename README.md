@@ -58,7 +58,7 @@ then we run main.go file
 
 then we run main.go file
 ```
->> go run main.go
+>> go run main.go 
 ```
 
 we can use curl 
