@@ -69,7 +69,7 @@ func chooseBackend() string {
 
 func proxt_to_backend(backend string, c net.Conn) error {
 	//dial is connection to any backend server using tcp
-	backend_connection, err := net.Dial("tcp", backend)
+	backend_connection, err := net.Dial("tcp", backend) 
 	if err != nil {
 		return fmt.Errorf("failed to connection to backend %s:%d", backend, err)
 	}
