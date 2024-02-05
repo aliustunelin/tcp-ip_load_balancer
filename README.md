@@ -88,6 +88,6 @@ for testing we can run 5001, 5002, 5003 http-servers
 - Currently not ideal for use in any living system.
 - Concurrency, efficient memory usage etc. Many parts need improvements.
 - Many proxy load balancers can be found in Github.
-
+- Adding Github Actions to deploy CI/CD pipelines
 
 
